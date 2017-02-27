@@ -1,0 +1,147 @@
+For the high quality hospitals the consistency scores are all on the high end. There is a clear correlation between consistency and high quality schools. When I calculated the high quality schools I also took out the schools with high variablity so this may have impacted this correlations. The base scores on the other hand don't have a correlation. 
+
+TABLE OF HIGH QUALITY HOSPITALS WIHT CONSISTENCY SCORE (C-score) AND BASE SCORE (B-score)
+Hospital name						Aggregate		Average			Variance		Count	B-score	C-score
+KAISER FOUNDATION HOSPITAL - REDWOOD CITY		3128.8999999999996	89.39714285714285	2062.994563265306	35	24	17
+KAISER FOUNDATION HOSPITAL-SAN JOSE			3290.7000000000003	88.93783783783785	2370.7834331628924	37	12	14
+RIVERSIDE DOCTORS' HOSPITAL OF WILLIAMSBURG		2970.4			87.36470588235295	1831.2769896193772	35	42	20
+KAISER FOUNDATION HOSP SO SACRAMENTO			3290.7			86.59736842105262	2410.2507825484763	38	24	16
+METRO NASHVILLE GENERAL HOSPITAL			2878.9			82.25428571428571	1892.5127673469385	36	8	16
+TRUMAN MEDICAL CENTER LAKEWOOD				3342.8999999999996	81.53414634146341	2188.6685901249257	42	19	18
+RENOWN SOUTH MEADOWS MEDICAL CENTER			3310.3			78.81666666666668	2277.803293650794	43	23	17
+CHINO VALLEY MEDICAL CENTER				3108.3			77.70750000000001	1825.1051937499997	41	13	13
+MORTON PLANT NORTH BAY HOSPITAL				3726.000000000001	77.62500000000001	2217.0643750000004	49	7	12
+UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT TYLER	3179.6			77.55121951219512	2045.1507911957171	42	39	19
+
+
+
+For the high variability procedures the consistency scores are on the medium to low scale and the base score is on the lower end. There is no strong correlation between high variability procedures and survey consistency scores. 
+
+
+HIGH VARIABILITY PROCEDURES WITH CONSISTENCY SCORE AND BASE SCORE
+Procedure Name								Variability		Count	B-score		C-score
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	103806.5		4	0		12
+Admit Decision Time to ED Departure Time for Admitted Patients		62701.0			4	0		12
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	43544.88888888889	3	19		11
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	37252.88888888888	6	14		13
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	34643.25		4	9		10
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	27478.5			4	18		8
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	24285.1875		8	42		19
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	21892.6875		4	3		7
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	21424.222222222223	3	20		11
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	21379.1875		4	34		15
+
+Below I have provided the distribution of consistency scores and base scores in the survey table. 
+
+
+
+Consistency scores in the survey table:
+
+Consistency score	Count
+1			2
+10			60
+11			89
+12			94
+13			143
+14			171
+15			246
+16			281
+17			291
+18			350
+19			351
+2			3
+20			833
+3			5
+4			10
+5			8
+6			13
+7			25
+8			33
+9			34
+
+
+Base scores in the survey table:
+
+Base Score	Count
+0		51
+1		48
+10		81
+11		67
+12		84
+13		57
+14		75
+15		74
+16		69
+17		81
+18		57
+19		73
+2		58
+20		72
+21		81
+22		74
+23		57
+24		63
+25		59
+26		69
+27		62
+28		49
+29		62
+3		54
+30		59
+31		55
+32		56
+33		48
+34		39
+35		44
+36		49
+37		35
+38		36
+39		39
+4		58
+40		30
+41		28
+42		39
+43		26
+44		24
+45		23
+46		31
+47		25
+48		21
+49		13
+5		55
+50		14
+51		20
+52		17
+53		13
+54		13
+55		13
+56		10
+57		12
+58		8
+59		17
+6		75
+60		9
+61		11
+62		13
+63		5
+64		9
+65		5
+66		8
+67		10
+68		5
+69		12
+7		63
+70		7
+71		8
+72		4
+73		5
+74		4
+75		9
+76		6
+77		13
+78		11
+79		11
+8		86
+80		23
+9		83
+

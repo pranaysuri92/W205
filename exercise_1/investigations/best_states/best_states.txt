@@ -1,0 +1,16 @@
+The following states are the states that are models for high quality care:
+
+state	aggregate		average			variance		total procedures
+FL	611393.2000000019	72.94991051187232	2857.285879063694	8549
+VA	263422.8999999999	72.80898286346044	2713.8933106846102	3691
+NC	328888.19999999984	72.68247513812152	2883.5253525477237	4611
+AZ	199256.9000000001	72.56260014566647	2991.4542276165203	2798
+SC	188066.90000000008	72.33342307692311	2717.3803098210083	2654
+PA	509223.4000000005	72.07691436659596	2648.9605753337864	7207
+OH	462567.7000000009	70.57792187976821	2487.7625351382403	6677
+UT	95126.60000000006	70.30790835181084	2310.03089828576	1386
+IL	480264.1999999987	70.05020420069992	2738.376114310694	6994
+WA	202339.69999999984	69.91696613683477	2542.788298881363	2944
+
+
+In order to find the best states I found the states with the highest averages. This is one measure that shows that the states are consistently good. To correct for low sample size I found the average number of procedures in each state and made sure that the top states had more procedures had more than 1000 procedures done in it. This corresponded to the bottom 20% of states. The other thing that could draw up an average is an outlier. To correct for this I made sure that the variance of the state is not in the bottom 20%. This will ensure that the procedure values are reasonably consistent around the average value.

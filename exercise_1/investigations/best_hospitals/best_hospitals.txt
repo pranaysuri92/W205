@@ -1,0 +1,17 @@
+These are the 10 hospitals that are models of high quality care:
+
+id	Hospital Name					Aggregate		Average			Variance
+050541  KAISER FOUNDATION HOSPITAL - REDWOOD CITY	3128.8999999999996	89.39714285714285	2062.994563265306	
+050604	KAISER FOUNDATION HOSPITAL-SAN JOSE		3290.7000000000003	88.93783783783785	2370.7834331628924	
+490143	RIVERSIDE DOCTORS' HOSPITAL OF WILLIAMSBURG	2970.4			87.36470588235295	1831.2769896193772	
+050674	KAISER FOUNDATION HOSP SO SACRAMENTO		3290.7			86.59736842105262	2410.2507825484763	
+670088	SCOTT & WHITE HOSPITAL- COLLEGE STATION		2884.0			82.4			2372.3474285714283	
+440111	METRO NASHVILLE GENERAL HOSPITAL		2878.9			82.25428571428571	1892.5127673469385	
+260102	TRUMAN MEDICAL CENTER LAKEWOOD			3342.8999999999996	81.53414634146341	2188.6685901249257	
+290049	RENOWN SOUTH MEADOWS MEDICAL CENTER		3310.3			78.81666666666668	2277.803293650794	
+050586	CHINO VALLEY MEDICAL CENTER			3108.3			77.70750000000001	1825.1051937499997	
+100063	MORTON PLANT NORTH BAY HOSPITAL			3726.000000000001	77.62500000000001	2217.0643750000004
+
+In order to find the best hospitals I found the hospitals with the highest averages. This is one measure that shows that the hospitals are consistently good. The average can be decieving for a couple of reasons, the main reason being that we may have a low sample size. To correct for this I found the average number of procedures and made sure that the hospital has had more procedures than the average. The other thing that could draw up an average is an outlier. To correct for this I made sure that the variance of the hospital is less than the average variance. This will ensure that the procedure values are reasonably consistent around the average value. 
+
+	

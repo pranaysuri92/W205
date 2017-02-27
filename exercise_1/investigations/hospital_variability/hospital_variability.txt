@@ -1,0 +1,18 @@
+These are the procedures with the highest variability in scores:
+
+
+Procedure Name									Variance		Count
+Median Time from ED Arrival to ED Departure for Admitted ED Patients		8617.740839212507	3516
+Admit Decision Time to ED Departure Time for Admitted Patients			3864.6924460743544	3496
+Median Time from ED Arrival to ED Departure for Discharged ED Patients		1656.5529409803205	3349
+Median Time to Pain Management for Long Bone Fracture				314.0819735739413	3172
+Median Time from ED Arrival to Provider Contact for ED patients			285.00371267017476	3354
+Venous Thromboembolism Warfarin Therapy Discharge Instructions			265.78796126891007	2468
+Venous Thromboembolism Prophylaxis						232.78828961700816	3534
+Stroke Education								196.37153240873673	2372
+Influenza Immunization								142.68029969125467	3739
+Discharge Instructions								139.9011388469527	2934
+
+
+
+To do this I grouped the scores by the measure name in the measure table and calculated the variance of the scores. I did not correct for anything except for low sample size. I did not want low sample size to make the variability artificially high. 
