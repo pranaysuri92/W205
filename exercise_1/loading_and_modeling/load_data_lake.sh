@@ -2,11 +2,11 @@
 
 #renamed files on local directory to elimnate spaces and capitalization
 #removed title lines in AWS instance using a script
-tail -n +2 hgi.csv  > geninfo.csv
-tail -n +2 md.csv  > codemapping.csv
-tail -n +2 tech.csv > proceduretec.csv
-tail -n +2 hvbp.csv > survey.csv
-tail -n +2 rdh.csv > procedurerd.csv
+tail -n +2 Hospital\ General\ Information.csv > geninfo.csv
+tail -n +2 Measure\ Dates.csv > codemapping.csv
+tail -n +2 Timely\ and\ Effective\ Care\ -\ Hospital.csv > proceduretec.csv
+tail -n +2 hvbp_hcahps_05_28_2015.csv > survey.csv
+tail -n +2 Readmissions\ and\ Deaths\ -\ Hospital.csv > procedurerd.csv
 
 #created a folder in hdfs called hospital_compare
 hdfs dfs -mkdir /user/w205/hospital_compare
