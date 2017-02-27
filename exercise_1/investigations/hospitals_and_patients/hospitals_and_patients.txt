@@ -1,4 +1,5 @@
-For the high quality hospitals the consistency scores are all on the high end. There is a clear correlation between consistency and high quality schools. When I calculated the high quality schools I also took out the schools with high variablity so this may have impacted this correlations. The base scores on the other hand don't have a correlation. 
+Conclusion, Approach, and Justification 1: 
+For the high quality hospitals the corresponding consistency scores are all on the high end. There is a clear correlation between consistency and high quality hospitals. When I calculated the high quality hospitals I also took out the hospitals with high variablity so this may have impacted this correlation. The base scores on the other hand don't have a strong correlation with high quality hospitals. The base scores for these hospitals are around the medium range for all hospitals. (See the base score distribution at the bottom) 
 
 TABLE OF HIGH QUALITY HOSPITALS WIHT CONSISTENCY SCORE (C-score) AND BASE SCORE (B-score)
 Hospital name						Aggregate		Average			Variance		Count	B-score	C-score
@@ -15,7 +16,8 @@ UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT TYLER	3179.6			77.55121951219512	20
 
 
 
-For the high variability procedures the consistency scores are on the medium to low scale and the base score is on the lower end. There is no strong correlation between high variability procedures and survey consistency scores. 
+Conclusion, Approach, and Justification 2: 
+For the high variability procedures the corresponding consistency scores are on the medium to low scale and the base score is on the lower end. There is no strong correlation between high variability procedures and any of the survey scores. 
 
 
 HIGH VARIABILITY PROCEDURES WITH CONSISTENCY SCORE AND BASE SCORE
