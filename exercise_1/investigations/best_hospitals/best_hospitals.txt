@@ -1,4 +1,4 @@
-These are the 10 hospitals that are models of high quality care:
+Conclusion: These are the 10 hospitals that are models of high quality care:
 
 id	Hospital Name					Aggregate		Average			Variance
 050541  KAISER FOUNDATION HOSPITAL - REDWOOD CITY	3128.8999999999996	89.39714285714285	2062.994563265306	
@@ -11,7 +11,10 @@ id	Hospital Name					Aggregate		Average			Variance
 290049	RENOWN SOUTH MEADOWS MEDICAL CENTER		3310.3			78.81666666666668	2277.803293650794	
 050586	CHINO VALLEY MEDICAL CENTER			3108.3			77.70750000000001	1825.1051937499997	
 100063	MORTON PLANT NORTH BAY HOSPITAL			3726.000000000001	77.62500000000001	2217.0643750000004
+ 
 
-In order to find the best hospitals I found the hospitals with the highest averages. This is one measure that shows that the hospitals are consistently good. The average can be decieving for a couple of reasons, the main reason being that we may have a low sample size. To correct for this I found the average number of procedures and made sure that the hospital has had more procedures than the average. The other thing that could draw up an average is an outlier. To correct for this I made sure that the variance of the hospital is less than the average variance. This will ensure that the procedure values are reasonably consistent around the average value. 
+
+Justification: 
+In order to find the best hospitals I found the hospitals with the highest average scores. This is one measure that shows that the hospitals are consistently good. The average can be decieving for a couple of reasons, the main reason being that we may have a low sample size. To correct for this I found the average number of procedures for all hospitals and made sure that each chosen hospital has more procedures than the average. The other thing that could artificially inflate an average is an outlier. To correct for this I made sure that the variance of the selected hospital is less than the average variance of all hospitals. This will ensure that the procedure values are reasonably consistent around the average value. 
 
 	
