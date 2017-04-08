@@ -6,7 +6,7 @@ create database: CREATE DATABASE tcount;
 
 creating table: CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY NOT NULL, count INT NOT NULL);
 
-This can also be done by running hello-stream-twitter.py in the exercise_2 folder
+This can also be done by running psycopg-sample.py in the exercise_2 folder
 
 Step 2: Run code
 
